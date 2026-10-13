@@ -33,6 +33,11 @@
           "sugestao": "Um guarda-sol de praia já melhora bastante.",
           "prioridade": "baixa",
           "foto": "fotos/melhoria/churrasqueira-sol.jpg"
+        },
+        {
+          "titulo": "Mais espelhos nos banheiros ou áreas em comum",
+          "texto": "Com 12 hóspedes na casa, faltaram espelhos. Mais espelhos nos banheiros ou nas áreas em comum ajudam na rotina de todos.",
+          "prioridade": "baixa"
         }
       ]
     },
