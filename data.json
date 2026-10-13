@@ -72,8 +72,8 @@
         },
         {
           "titulo": "Limpeza da piscina",
-          "texto": "A limpeza da piscina é um ponto que precisa de atenção.",
-          "prioridade": "média"
+          "texto": "A água da piscina estava um pouco turva. Não estava muito suja, mas vale reforçar a limpeza.",
+          "prioridade": "baixa"
         }
       ]
     },
