@@ -24,7 +24,15 @@
         {
           "titulo": "Quina afiada entre a piscina rasa e a funda",
           "texto": "A quina que separa a parte rasa da parte funda da piscina está bem afiada e chegou a machucar levemente um dos hóspedes.",
-          "foto": "fotos/melhoria/piscina-quina.webp"
+          "foto": "fotos/melhoria/piscina-quina.webp",
+          "prioridade": "alta"
+        },
+        {
+          "titulo": "Churrasqueira totalmente exposta ao sol",
+          "texto": "A churrasqueira fica totalmente no sol. No verão isso deixa o ambiente mais quente e pode dificultar a vida de quem fica como churrasqueiro.",
+          "sugestao": "Um guarda-sol de praia já melhora bastante.",
+          "prioridade": "baixa",
+          "foto": "fotos/melhoria/churrasqueira-sol.jpg"
         }
       ]
     },
