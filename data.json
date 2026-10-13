@@ -73,7 +73,13 @@
     },
     "plus": {
       "titulo": "Serviços Extras (Plus)",
-      "itens": []
+      "itens": [
+        {
+          "titulo": "Jogos de lazer nos espaços livres",
+          "texto": "A casa tem espaços que poderiam oferecer opções extras de lazer, como tênis de mesa, sinuca e similares.",
+          "foto": "fotos/plus/area-coberta.webp"
+        }
+      ]
     }
   }
 }
