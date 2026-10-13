@@ -78,6 +78,11 @@
           "titulo": "Jogos de lazer nos espaços livres",
           "texto": "A casa tem espaços que poderiam oferecer opções extras de lazer, como tênis de mesa, sinuca e similares.",
           "foto": "fotos/plus/area-coberta.webp"
+        },
+        {
+          "titulo": "Vista para o pôr do sol",
+          "texto": "A casa tem uma vista excelente para o pôr do sol, perto da casa de máquinas, no início da quadra de vôlei.",
+          "foto": "fotos/plus/por-do-sol.webp"
         }
       ]
     }
