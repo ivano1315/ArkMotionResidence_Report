@@ -38,6 +38,16 @@
           "titulo": "Mais espelhos nos banheiros ou áreas em comum",
           "texto": "Com 12 hóspedes na casa, faltaram espelhos. Mais espelhos nos banheiros ou nas áreas em comum ajudam na rotina de todos.",
           "prioridade": "baixa"
+        },
+        {
+          "titulo": "Reposição de produtos de limpeza, esponjas e papel higiênico",
+          "texto": "Durante a estadia faltaram algumas esponjas e papel higiênico. Vale reforçar o estoque de produtos de limpeza, esponjas e papel higiênico para um grupo grande.",
+          "prioridade": "média"
+        },
+        {
+          "titulo": "Mais roupa de cama, especialmente cobertores",
+          "texto": "Mais roupa de cama seria bom, principalmente cobertores.",
+          "prioridade": "média"
         }
       ]
     },
