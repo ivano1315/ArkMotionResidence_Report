@@ -1,0 +1,36 @@
+{
+  "casa": {
+    "titulo": "ArkMotionResidence Pool&Kite Perto de Flecheiras",
+    "tipo": "Casa inteira em Trairi (CE), Brasil",
+    "capacidade": "16+ hóspedes",
+    "quartos": 5,
+    "camas": 8,
+    "banheiros": 4,
+    "anuncio": "https://www.airbnb.com.br/rooms/1777191691377234549"
+  },
+  "estadia": {
+    "inicio": "2025-10-10",
+    "fim": "2025-10-12",
+    "hospedes": 12
+  },
+  "secoes": {
+    "fortes": {
+      "titulo": "Pontos Fortes da Residência",
+      "itens": []
+    },
+    "melhoria": {
+      "titulo": "Pontos de Melhoria",
+      "itens": [
+        {
+          "titulo": "Quina afiada entre a piscina rasa e a funda",
+          "texto": "A quina que separa a parte rasa da parte funda da piscina está bem afiada e chegou a machucar levemente um dos hóspedes.",
+          "foto": "fotos/melhoria/piscina-quina.webp"
+        }
+      ]
+    },
+    "plus": {
+      "titulo": "Serviços Extras (Plus)",
+      "itens": []
+    }
+  }
+}
