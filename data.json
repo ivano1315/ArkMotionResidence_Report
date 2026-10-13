@@ -34,7 +34,8 @@
         },
         {
           "titulo": "Cozinha equipada",
-          "texto": "Ter uma lava-louças ajuda muito nas tarefas."
+          "texto": "Ter uma lava-louças ajuda muito nas tarefas.",
+          "foto": "fotos/fortes/cozinha.webp"
         }
       ]
     },

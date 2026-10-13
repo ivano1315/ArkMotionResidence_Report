@@ -81,6 +81,13 @@ function render(d) {
 $("#lightbox-close").addEventListener("click", () => $("#lightbox").close());
 $("#lightbox").addEventListener("click", (e) => { if (e.target.id === "lightbox") e.target.close(); });
 
+function exportarPdf() {
+  const imgs = [...document.images];
+  imgs.forEach((i) => { i.loading = "eager"; });
+  Promise.all(imgs.map((i) => i.decode().catch(() => {}))).then(() => window.print());
+}
+$("#pdf").addEventListener("click", exportarPdf);
+
 fetch("data.json")
   .then((r) => r.json())
   .then(render)

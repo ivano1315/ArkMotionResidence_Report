@@ -66,6 +66,8 @@ h1 { margin: 0 0 8px; font-size: clamp(1.7rem, 6vw, 2.8rem); line-height: 1.15; 
   font-weight: 600; text-decoration: none;
 }
 .btn:active { transform: scale(.98); }
+.btn--ghost { background: transparent; color: #fff; border: 1.5px solid rgba(255,255,255,.7); font: inherit; font-weight: 600; cursor: pointer; }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; }
 
 /* Layout */
 main { max-width: 900px; margin: 0 auto; padding: 0 16px 24px; }
@@ -118,3 +120,28 @@ main { max-width: 900px; margin: 0 auto; padding: 0 16px 24px; }
 .lightbox img { max-height: 82vh; max-width: 100%; object-fit: contain; border-radius: 8px; }
 .lightbox p { margin: 0; text-align: center; font-size: .95rem; }
 .lightbox__close { position: absolute; top: 12px; right: 12px; width: 44px; height: 44px; border: 0; border-radius: 50%; background: rgba(255,255,255,.18); color: #fff; font-size: 1.8rem; line-height: 1; cursor: pointer; }
+
+/* Impressão / PDF */
+@media print {
+  @page { size: A4; margin: 12mm; }
+  :root { --bg: #fff; --card: #fff; --text: #1c2b2e; --muted: #4a5a5d; --brand: #0e7c86; --line: #d5dfe0; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { background: #fff; font-size: 12px; }
+  .actions, .lightbox { display: none !important; }
+  .hero { min-height: 0; height: 75mm; border-radius: 8px; overflow: hidden; }
+  .hero__inner { padding: 12px 16px; }
+  h1 { font-size: 22px; }
+  .hero__sub { margin-bottom: 8px; }
+  .chips { margin-bottom: 0; }
+  main { padding: 0; }
+  .resumo { margin-top: 10px; grid-template-columns: repeat(4, 1fr); }
+  .stat { box-shadow: none; padding: 8px 10px; }
+  .secao { margin-top: 18px; }
+  .secao h2 { break-after: avoid; font-size: 18px; }
+  .grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .card { break-inside: avoid; }
+  .card__foto { aspect-ratio: auto; height: 50mm; cursor: default; overflow: hidden; }
+  .secao__count { break-after: avoid; }
+  .card__body { padding: 8px 10px 10px; }
+  .footer { padding: 12px 0 0; font-size: 11px; }
+}
