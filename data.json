@@ -81,9 +81,10 @@
           "foto": "fotos/plus/area-coberta.webp"
         },
         {
-          "titulo": "Vista para o pôr do sol",
-          "texto": "A casa tem uma vista excelente para o pôr do sol, perto da casa de máquinas, no início da quadra de vôlei.",
-          "foto": "fotos/plus/por-do-sol.webp"
+          "titulo": "Cantinho para ver o pôr do sol",
+          "texto": "A casa tem uma vista excelente para o pôr do sol, perto da casa de máquinas, no início da quadra de vôlei. É algo que poderia ser explorado.",
+          "foto": "fotos/plus/por-do-sol.webp",
+          "sugestao": "Criar um cantinho para ver o pôr do sol dentro da própria casa."
         }
       ]
     }
