@@ -69,6 +69,11 @@
           "titulo": "Mais roupa de cama, especialmente cobertores",
           "texto": "Mais roupa de cama seria bom, principalmente cobertores.",
           "prioridade": "média"
+        },
+        {
+          "titulo": "Limpeza da piscina",
+          "texto": "A limpeza da piscina é um ponto que precisa de atenção.",
+          "prioridade": "média"
         }
       ]
     },
