@@ -16,7 +16,27 @@
   "secoes": {
     "fortes": {
       "titulo": "Pontos Fortes da Residência",
-      "itens": []
+      "itens": [
+        {
+          "titulo": "Espaço",
+          "texto": "Mesmo com muitas pessoas, a casa é totalmente confortável.",
+          "foto": "fotos/fortes/espaco-sala.webp"
+        },
+        {
+          "titulo": "Rede de vôlei",
+          "texto": "Permitiu uma opção de lazer sem sair de casa.",
+          "foto": "fotos/fortes/quadra-volei.webp"
+        },
+        {
+          "titulo": "Piscina de 25 m",
+          "texto": "Com 12 hóspedes, não ficou apertado para ninguém.",
+          "foto": "fotos/fortes/piscina-25m.webp"
+        },
+        {
+          "titulo": "Cozinha equipada",
+          "texto": "Ter uma lava-louças ajuda muito nas tarefas."
+        }
+      ]
     },
     "melhoria": {
       "titulo": "Pontos de Melhoria",
